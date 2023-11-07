@@ -1,0 +1,21 @@
+{
+  "name": "colorthemebyvetivertest",
+  "displayName": "colorThemeByVetiverTest",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "vetiver",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vetiver-color-theme.json"
+      }
+    ]
+  }
+}
